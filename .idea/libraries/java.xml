@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="java">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Downloads/ts3j-master.zip!/ts3j-master/examples/audio/src/main/java" />
+      <root url="jar://$USER_HOME$/Downloads/ts3j-master.zip!/ts3j-master/src/main/java" />
+      <root url="jar://$USER_HOME$/Downloads/ts3j-master.zip!/ts3j-master/src/test/java" />
+    </SOURCES>
+  </library>
+</component>

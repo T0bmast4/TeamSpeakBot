@@ -1,0 +1,10 @@
+ChannelMovedEvent		        "Ey wie doof muss man sein?"
+ChannelPasswordChangedEvent	    "Ey wir schließen hier keine Leute aus."
+ClientChatClosedEvent		    "Nene so nicht freundchen, so schnell wirst du mich nicht los."
+ClientPokeEvent			        "Echo"
+PermissionListEvent		        "Aha, da möchte wohl einer Permissions editieren"
+ServerEditedEvent		        "ALARM"
+ServerGroupClientDeletedEvent	"Ey gib mir meinen Rang zurück, sonst muss ich das Tobi mitteilen!!!"
+
+
+brim                            Brimstone lineups ....
