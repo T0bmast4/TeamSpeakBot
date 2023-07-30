@@ -25,7 +25,7 @@ public class PlayCommand extends Command {
                 if(musicPlayer.isRunning()) {
                     TS3Bot.getInstance().getQueue().add(songName);
                     TS3Bot.getInstance().getClient().sendChannelMessage(sender.getChannelId(),
-                            "Der Song " + songName + " von " + sender.getNickname() + " wurde zur Warteschlange hinzugefügt \n" +
+                            "Der Song " + songName + " wurde von " + sender.getNickname() + " zur Warteschlange hinzugefügt \n" +
                             "(" + TS3Bot.getInstance().getQueue().size() + " Song(s) in Queue)");
                     System.out.println("Nächster Song in Queue: " + songName + " (" + TS3Bot.getInstance().getQueue().size() + ". Platz in Queue)");
                     return;

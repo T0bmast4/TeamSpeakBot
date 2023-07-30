@@ -9,6 +9,7 @@ import org.jetbrains.annotations.NotNull;
 
 import java.io.IOException;
 import java.util.Arrays;
+import java.util.Locale;
 import java.util.concurrent.TimeoutException;
 
 public class TextCommands implements TS3Listener {
@@ -35,7 +36,7 @@ public class TextCommands implements TS3Listener {
     }
 
     public void parse(Client executor, @NotNull String commandline) {
-        String cmd = commandline.split(" ")[0];
+        String cmd = commandline.split(" ")[0].toLowerCase();
         TS3Bot.getInstance().getCommands().forEach(command -> {
             if (command.getName().equals(cmd)) {
                 try {

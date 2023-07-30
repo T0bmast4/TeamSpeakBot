@@ -83,7 +83,6 @@ public class TS3Bot {
 
         musicPlayer = new MusicPlayer();
         musicPlayer.playSong(musicPlayer.getRandomSong());
-        YouTubeDownloader.downloadVideo("https://www.youtube.com/watch?v=BB5eqc1ZyK0");
     }
 
     public void stop() {
@@ -95,9 +94,9 @@ public class TS3Bot {
         getCommands().add(new PlayCommand("!play"));
         getCommands().add(new VolumeCommand("!volume"));
         getCommands().add(new StopCommand("!stop"));
-        getCommands().add(new LokiCommand("!loki"));
-        getCommands().add(new YTCommand("!yt"));
         getCommands().add(new IgnoreCommand("!ignore"));
+        getCommands().add(new LokiCommand("!loki"));
+        getCommands().add(new GuteFrageCommand("!gutefrage"));
     }
 
     public LocalTeamspeakClientSocket getClient() {

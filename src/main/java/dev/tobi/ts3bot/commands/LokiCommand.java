@@ -33,7 +33,6 @@ public class LokiCommand extends Command{
             for (Client client : TS3Bot.getInstance().getClient().listClients()) {
                 if (client.getChannelId() == sender.getChannelId()) {
                     for (String ignoreUUIDs : TS3Bot.getInstance().getConfig().getProperties().getProperty("ignoreUUIDs").split(", ")) {
-                        System.out.println(ignoreUUIDs);
                         if (client.getUniqueIdentifier() != ignoreUUIDs) {
                             clientsInChannel.add(client);
                         }
